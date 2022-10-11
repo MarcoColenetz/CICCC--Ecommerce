@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Apple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/32px-Apple_logo_black.svg.png"
+      />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li class="bag-icon-li">
+          <i class="bx bxs-shopping-bag bagbag" id="bag-icon"></i>
+          <div class="total-items-quantity">0</div>
+        </li>
+      </ul>
+    </nav>
+    <div class="bag">
+      <h2 class="bag-title">My bag</h2>
+
+      <div class="bag-content"></div>
+
+      <div class="bag-footer">
+        <div class="total">
+          <div class="total-title">Total:</div>
+          <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Checkout</button>
+        <button type="button" class="btn-clear">Clear</button>
+      </div>
+
+      <i class="bx bx-x" id="close-bag"></i>
+    </div>
+    <section class="main">
+      <div>
+        <h4>Welcome to Apple</h4>
+        <h1>iPhone 14 Pro</h1>
+        <p>
+          A magical new way to interact with iPhone. A vital new safety feature
+          designed to save lives. An innovative 48MP camera for mind-blowing
+          detail. All powered by the ultimate smartphone chip.
+        </p>
+      </div>
+      <button>Buy your iPhone here</button>
+      <img class="iphone" src="assets/iphone14.png" alt="" />
+    </section>
+
+    <section>
+      <div class="cards">
+        <div class="card">
+          <h3>New Display</h3>
+          <p>
+            Featuring the Always-On display, the first-ever 48MP camera on
+            iPhone, Crash Detection, Emergency SOS via satellite, and an
+            innovative new way to receive notifications and activities with the
+            Dynamic Island
+          </p>
+        </div>
+        <div class="card">
+          <h3>Crash Detection</h3>
+          <p>
+            iPhones can detect if you are in a severe car crash thanks to Crash
+            Detection. It will automatically connect you with emergecny
+            services, provide your location, and notify emergency contacts.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Dynamic Island</h3>
+          <p>
+            Dynamic Island is an expanding and contracting area around the notch
+            that shows useful information like currently playing song, a
+            notification for a call and how far is your cab ride.
+          </p>
+        </div>
+        <div class="card">
+          <h3>New Battery</h3>
+          <p>
+            iPhone 14 models feature "all-day battery life." iPhone 14, iPhone
+            14 Pro, and iPhone 14 Pro Max models feature up to one hour longer
+            battery life for offline video playback compared to the equivalent
+            iPhone 13 models.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop">
+      <h2 class="section-title">Products</h2>
+
+      <div class="cards">
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/iphone1.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">iPhone 14</h2>
+          <span class="price">$999</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/iphone2.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">iPhone 14 Pro</h2>
+          <span class="price">$1129</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/iphone3.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">iPhone 14 Pro Max</h2>
+          <span class="price">$1259</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/airpodspro.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">AirPods Pro</h2>
+          <span class="price">$359</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/airpodsmax.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">AirPods Max</h2>
+          <span class="price">$759</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img
+              class="appleproducts product-img"
+              src="assets/applewatch.png"
+              alt=""
+            />
+          </div>
+          <h2 class="product-title">Apple Watch Ultra</h2>
+          <span class="price">$1059</span>
+          <i class="bx bx-plus add-bag"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <header>
+        <h2>Reviews</h2>
+      </header>
+      <div class="cards">
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://www.phdmedia.com/romania/wp-content/uploads/sites/73/2015/05/temp-people-profile.jpg"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>J. R.</h3>
+          <p>
+            Apple phones are always a great phone his phones have a 90 day
+            return policy which I think is very important for a phone the
+            battery life though is not the best but the screen functionality is
+            pretty well and it also has Face ID that works great and the best
+            part about it is that on a regular phone when you run out of storage
+            it starts going slow but Apple even when you run out of storage but
+            even before you get to iCloud the phone does not run slow so I
+            always love the Apple so I do recommend it so even though it’s much
+            newer models out there told your phone still works good I just keep
+            in mind though that not all of them the battery life is amazing
+            which I find is a very important to mention
+          </p>
+        </div>
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://www.leisureopportunities.co.uk/images/995586_746594.jpg"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>Dov</h3>
+          <p>
+            I wasn’t sure what to expect from a refurbished device but most
+            comments were pretty positive. I wasn’t happy that mine had a few
+            visible blemishes on the screen and was about to return it but
+            decided on keeping it because of the price. I applied a screen
+            protector and case and it looks almost as good as new. Battery life
+            is 88% but still lasts a full day no problem. I did have the idea of
+            replacing the battery as soon as I bought it because my iPhone 8 was
+            awful at 83% but I don’t feel the need just yet because battery is
+            really great. Overall I’m glad I got this because I really needed to
+            upgrade my iPhone 8.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://warwick.ac.uk/fac/soc/economics/staff/aadvani/profile.jpg"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>Jerome</h3>
+          <p>
+            Was a Little skeptical since I’ve never ordered a used phone before!
+            Everything is in perfect condition! I got this phone for my daughter
+            it is her first phone ! She is in love with it! We realize it’s a
+            hassle to sign up with local carriers and be on a contract , we
+            prefer to buy a sim and a pre paid everything worked out and had no
+            issues !! Battery life is a little low but don’t have to recharge at
+            all through the day!
+          </p>
+        </div>
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?w=2000"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>Katie</h3>
+          <p>
+            I was really nervous with buying a phone on Amazon but I’m glad I
+            did it has worked perfectly for me there were not scratches or
+            anything and the battery last forever anyways that’s it I hope this
+            helps just try it out if it doesn’t work than return it.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://thestylingedit.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTg5Mzg4NTc0OTc3OTU5ODI5/profile-picture-lighting-tip-3.jpg"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>Karen</h3>
+          <p>
+            If you're purchasing this from outside the U.S, the "final price" at
+            purchase isn't the final price because the taxes and shipping fee
+            hasn't been applied yet (it will do so once shipped, and then you'll
+            see the charges in your bank account). This is not the company's
+            fault, and it is something Amazon should make clear to their
+            customers. At first I was upset at the seller due to my
+            misunderstanding, but after communicating with them, they did their
+            best to make sure I wasn't dissatisfied with the transaction. Before
+            leaving a negative review, message the seller and I'm sure they'll
+            try to help you out, especially if you're unsure about some of the
+            details in their advertisement. The seller delivers on promise on
+            what the phone comes with (although a nitpick, the battery was not
+            near 80 percent). The screen has a noticeable scratch, which was to
+            be expected. The delivery was quick and came next day. Mine came
+            with freebies such as a screen protector and phone case. This
+            product is worth the money, in my opinion.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            class="profile-pic"
+            src="https://image.ibb.co/jsfaFU/photo_5464.jpg"
+          />
+          <img
+            class="stars"
+            src="data:image/png;base64,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"
+          />
+          <h3>Maria</h3>
+          <p>
+            I bought this phone for my gf i was skeptical because it was such a
+            good deal for the price and the storage space the phone came with.
+            Came in perfect condition with no issues other then having to go
+            through getting the sim activated
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <header>
+        <h2>About us</h2>
+        <p>
+          Apple Inc., formerly Apple Computer, Inc., American manufacturer of
+          personal computers, smartphones, tablet computers, computer
+          peripherals, and computer software. It was the first successful
+          personal computer company and the popularizer of the graphical user
+          interface. Headquarters are located in Cupertino, California.
+        </p>
+
+        <p>
+          Steven Paul Jobs was an American inventor, designer and entrepreneur
+          who was the co-founder, chief executive and chairman of Apple
+          Computer. Apple's revolutionary products, which include the iPod,
+          iPhone and iPad, are now seen as dictating the evolution of modern
+          technology.
+        </p>
+      </header>
+      <img
+        class="stevejobs"
+        src="./assets/stevejobs.png"
+        alt="Doutor feliz segurando prancheta com pacientes"
+      />
+    </section>
+
+    <div class="content">
+      <ul>
+        <li>
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          123, Cornerstone Road - Vancouver
+        </li>
+        <li>
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M22 6L12 13L2 6"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          contact@apple.com
+        </li>
+      </ul>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
